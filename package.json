@@ -1,0 +1,20 @@
+{
+  "name": "@laika-labs/cli",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "tsc"
+  },
+  "bin": {
+    "laika": "./dist/index.js"
+  },
+  "dependencies": {
+    "axios": "^1.2.1",
+    "commander": "^9.4.1",
+    "node-fetch": "^3.3.0",
+    "typescript": "^4.9.4",
+    "typescript-json-schema": "^0.55.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.16"
+  }
+}
