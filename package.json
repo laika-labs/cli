@@ -1,6 +1,12 @@
 {
   "name": "@laika-labs/cli",
-  "version": "0.0.1",
+  "description": "Command-Line Interface for Laika",
+  "version": "0.0.2",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/laika-labs/cli.git"
+  },
   "scripts": {
     "build": "tsc"
   },
